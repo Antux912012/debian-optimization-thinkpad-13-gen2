@@ -1,0 +1,21 @@
+# Reset flathub theming if broken
+
+The cause is usually the global override, so the best option still to reset the file you can find in ./local/share/flatpak/overrides/global 
+
+Commands
+
+First check the status of the file:
+
+flatpak override --user --unset-env=QT_STYLE_OVERRIDE
+
+then the fix:
+
+```
+flatpak override --user --unset-env=GTK_THEME
+flatpak override --user --unset-env=GTK2_RC_FILES
+flatpak override --user --unset-env=QT_STYLE_OVERRIDE
+```
+
+then need to do a flatpak update or reboot and it should go back to normality. 
+
+In the folder sometimes you can find other files for some specific apps, delete them and also that apps will restore their normal appearance.
