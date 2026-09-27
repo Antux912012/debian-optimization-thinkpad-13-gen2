@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 27 Sep 2026 16:40:30 +0300
+Source: linux-upstream
+Binary: linux-headers-7.2.6-cachyos-thinkpad13 linux-image-7.2.6-cachyos-thinkpad13 linux-libc-dev
+Architecture: amd64
+Version: 1.0-cachyos
+Distribution: forky
+Urgency: low
+Maintainer: antonio <antonio@thinkpad-debian>
+Changed-By: antonio <antonio@thinkpad-debian>
+Description:
+ linux-headers-7.2.6-cachyos-thinkpad13 - Linux kernel headers for 7.2.6-cachyos-thinkpad13 on amd64
+ linux-image-7.2.6-cachyos-thinkpad13 - Linux kernel, version 7.2.6-cachyos-thinkpad13
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (1.0-cachyos) forky; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 53ed9fa0cd30470e93f11bc5c01e909ad6bd9662 9895504 linux-headers-7.2.6-cachyos-thinkpad13_1.0-cachyos_amd64.deb
+ dd33e498e74368c9e687298829cc008c570d5a0d 120840012 linux-image-7.2.6-cachyos-thinkpad13_1.0-cachyos_amd64.deb
+ d18cb3bbfbc96e8a64d976e32d953e77059bd3e0 1506084 linux-libc-dev_1.0-cachyos_amd64.deb
+ 765e1c2d3fe66ea0135e15f9830a7b0327ae0d0e 6237 linux-upstream_1.0-cachyos_amd64.buildinfo
+Checksums-Sha256:
+ 2723ad93c3a4859b2617023c42c28f0201d6228325587180058c4cb2346316b9 9895504 linux-headers-7.2.6-cachyos-thinkpad13_1.0-cachyos_amd64.deb
+ b454d2617d75f582acac282316886b7a19cc54a2898bc10df0f0c42777bb07bf 120840012 linux-image-7.2.6-cachyos-thinkpad13_1.0-cachyos_amd64.deb
+ 2040a30b42ce4b914f3b5a46831f726da222c47a26c4ebb71ee734a21bef2c63 1506084 linux-libc-dev_1.0-cachyos_amd64.deb
+ 77feab0141969b2378d657a0af4515190002a9079940d3c27fc228805f7dcff3 6237 linux-upstream_1.0-cachyos_amd64.buildinfo
+Files:
+ fbe7da376ebf7dfc77f8613f4d4f8132 9895504 kernel optional linux-headers-7.2.6-cachyos-thinkpad13_1.0-cachyos_amd64.deb
+ 19d665b8cd749cedeb9830b2cfb1a160 120840012 kernel optional linux-image-7.2.6-cachyos-thinkpad13_1.0-cachyos_amd64.deb
+ 8b7df037f823f09b35c0b417c4f05e68 1506084 devel optional linux-libc-dev_1.0-cachyos_amd64.deb
+ a8db3995c76e3c620ca6ee25bc32f030 6237 kernel optional linux-upstream_1.0-cachyos_amd64.buildinfo
